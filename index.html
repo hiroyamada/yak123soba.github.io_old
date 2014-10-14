@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Test Template</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="jquery-textfill.js"></script>
+	<script src="script.js"></script>
+</head>
+<body onload="loadPage()">
+<div class="content_div">
+<iframe class="youtube-player" type="text/html" width="100%" height="100%" src="http://www.youtube.com/embed/cYU_dhrmvyU?autoplay=1&iv_load_policy=3&loop=1&controls=0&autohide=0&showinfo=0" allowfullscreen frameborder="0">
+</iframe>
+</div>
+
+<div class="content_div">
+		<div class="container" id="shuttle_div">
+		<div>Shuttle wait times from Widener Gate</div>
+		<div>
+			<table border="1" style="width:100%; font-size:35px">
+		      <col width="70%">
+	  		  <col width="30%">
+			  <tr>
+			    <td>to Quad</td>
+			    <td>-</td> 
+			  </tr>
+			  <tr>
+			    <td>to Maxwell Dworkin</td>
+			    <td>-</td> 
+			  </tr>
+			  <tr>
+			    <td>to Memorial Hall</td>
+			    <td>-</td> 
+			  </tr>
+
+			</table>
+
+		</div>
+	</div>
+
+	<div class="container" id="pres_div">
+		<iframe src="https://docs.google.com/presentation/d/1M6bU4nn7HH3H5GCMpAYzlp_eXLTY6fn0O4Wq-Nqavf4/embed?start=true&loop=true&delayms=5000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	</div>
+
+	<div class="container" id="time_div">
+		<div id="clock_span_div" class="time_container" style="height:75%; display:table">
+			<div id="clock_span" class="text_filler" style="display: table-cell; vertical-align: middle">00:00:00</div>
+		</div>
+		<div id="date_span_div" class="time_container" style="height:25%; display:table">
+			<div id="date_span" class="text_filler" style="display: table-cell; vertical-align: middle">Monday 01/01</div>
+		</div>
+	</div>
+
+	<div class="container" id="weather_div">
+		<iframe id="forecast_embed" type="text/html" frameborder="0" height="100%" width="100%" src="http://forecast.io/embed/#lat=42.3583&lon=-71.0603&name=Antarctica"> </iframe>
+	</div>
+</div>
+</body>
+</html>

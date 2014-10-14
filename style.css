@@ -1,0 +1,54 @@
+html, body { height: 100%; width: 100%; padding: 0; margin: 0; font-family: 'Roboto', sans-serif;}
+
+.content_div{
+	position: absolute;
+	height:100%;
+	width:100%
+}
+
+.container
+{
+  float: left;
+  position: relative;
+}
+
+.time_container
+{
+	width:100%;
+	text-align:center
+}
+
+#time_div { 
+	width: 50%;
+	height: 25%;
+	background: rgba(220,220,220,0.6); 
+	display: table;
+}
+#weather_div { 
+	width:50%;
+	height:25%;
+	background: rgba(220,220,220,0.6); 
+}
+#shuttle_div { 
+	width: 25%;
+	height: 75%;
+	background: rgba(220,220,220,0.6); 
+	font-size: 40px;
+	text-align: center;
+}
+#pres_div {
+	width:75%;
+	height:75%;
+}
+
+#clock_span { 
+	vertical-align: middle;
+	text-align: center;
+	font-size: 100px;
+}
+
+#date_span { 
+	vertical-align: middle;
+	text-align: center;
+	font-size: 45px;
+}
